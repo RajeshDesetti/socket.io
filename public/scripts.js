@@ -1,6 +1,6 @@
 // console.log(io)
 // io() connects to the socket.io server at the url
-const socket = io('http://localhost:4000',{
+const socket = io('https://socket-io-domq.onrender.com',{
     auth: {
         secret: "This is a secret"
     },
